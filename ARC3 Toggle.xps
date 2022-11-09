@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<PresetXMLTree version="2">
+    <Preset Name="ARC3 Toggle" GenericType="WSCR">
+        <PresetHeader>
+            <PluginName>StudioRack</PluginName>
+            <PluginSubComp>WRHS</PluginSubComp>
+            <PluginVersion>14.10.12.265</PluginVersion>
+            <ReadOnly>false</ReadOnly>
+        </PresetHeader>
+        <VST24SideChainActive>true</VST24SideChainActive>
+        <PresetData Setup="CURRENT">
+            <Parameters Type="RealWorld">0 -4.0999999999999996447 * * * * * * * *
+* 0 10 1000 1000 0 0 0 0
+0 0 * * * * * * *
+* * * * * 0 * * *
+* * * * 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 * * * * * * * *
+* * * * * * * * 0
+0 0 0 0 0 0 0 1 1
+1 1 1 1 1 1 1 1 1
+1 1 1 1 1 * * * *
+* * * * 0 * * * *
+0 0 0 1 * * 0 2 *
+0 0 0 * 0 * * * *
+* * * * * * 0 1 0
+* 0 0 0 0 0 0 0 0
+* * * * 0 * * * *
+* * * * * * * * *
+* 0 * 0.5 * 0 0 0 *
+* * 0 * * * 0 * 0
+* * 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 * * * *
+* * * * * * * * *
+* * * * * * * * *
+* * * * * * * * *
+* 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1
+1 1 1 1 * * * * *
+* * * * * * * * *
+* * 1 0 0 2 0 0 0
+0 0 0 0 0 0 0 0 0
+1 * * * * 0 * * 0
+0 0 0 0 0 0 0 0 0
+* * * 1 1 * 0 0 -4.0999999999999996447
+0 0 * * 0 0 * * </Parameters>
+            <PluginSpecificXMLData>
+                <selected_slot index="0" />
+                <gui_is_open />
+                <slot index="0">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="2">
+ <Preset Name="" GenericType="PRRC">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>ParallelRack</PluginName>
+   <PluginSubComp>PRRS</PluginSubComp>
+   <PluginVersion>14.10.12.265</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">0 0 * * * * * * * *
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 * 0 0
+* 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 * 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 0 1
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 92 546 3991 11050 92 92 92
+92 * 2 0 * * * * *
+* * * * * * * * *
+* * 0 0 0 0 0 0 0
+0 -45 -45 -45 -45 -45 -45 -45 -45
+45 45 45 45 45 45 45 45 1
+1 1 1 1 1 1 1 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 0 *
+0 * 0 36 48 60 72 36 36
+36 36 20 45 70 95 20 20 20
+20 0 * * * * * * *
+* </Parameters>
+   <PluginSpecificXMLData>
+    <selected_slot index="0" />
+    <slot index="0">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[VlNU
+MwEAAAA1NjUzNTQ0MTUyNDMzMzYxNzI2MzIwMzMwMDAwMDAwMKQEAAAAAAAAVnN0VwAAAAgAAAAB
+AAAAAUNjbksAAARcRkJDaAAAAAJBUkMzAAMAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8RBUkMzQ29y
+cmVjdGlvbk5vZGUAARZQaGFzZVR5cGUAAQgFTGluZWFyAE1ldGVyVHlwZQABBgVQRUFLAE1ldGVy
+UHJlT3JQb3N0AAEGBVBPU1QASGlnaFJhbmdlAAEJBAAAAEAvesdAQ29ycmVjdGlvbkVuYWJsZWQA
+AQECU21vb3RoaW5nVHlwZQABCQVEZWZhdWx0AENvbWJpbmVkTFIAAQMFMABWaXJ0dWFsTW9uaXRv
+cmluZwABBQVPZmYAVGFyZ2V0AAEKBUN1c3RvbSAyAE1heEFsbG93YWJsZVRyaW0AAQkEAAAAAAAA
+KMBNZWFzdXJlbWVudAABEwVhZGFtIGZhciB3YWxsIG5ldwBDdXJ2ZUVuYWJsZWRCZWZvcmVMAAED
+BTEAQ3VydmVFbmFibGVkVGFyZ2V0AAEDBTEAQ29ycmVjdGlvblNwZWFrZXIAAQ4FQWRhbV9zMkFf
+cmV2AFRyaW0AAQkEAAAAAAAAKMBDdXJ2ZUVuYWJsZWRBZnRlckwAAQMFMQBSVEFFbmFibGVkAAED
+BTAAQ3VydmVFbmFibGVkQmVmb3JlUgABAwUxAFZpZXdlZE1haW5QYW5lbElkAAELBVBhbmVsUGxh
+eQBMb3dSYW5nZQABCQQAAABAoGxGQEN1cnZlRW5hYmxlZEFmdGVyUgABAwUxAFNlbGVjdGVkQ3Vz
+dG9tUG9pbnQAAQUB/////wEGQ3VzdG9tUG9pbnROb2RlAAECUG9pbnRHYWluAAEJBAAAAAAAAAAA
+UG9pbnRGcmVxAAEJBAAAAAAAgERAAEN1c3RvbVBvaW50Tm9kZQABAlBvaW50R2FpbgABCQQAAAAA
+AAAAAFBvaW50RnJlcQABCQQAAAAAAIBhQABDdXN0b21Qb2ludE5vZGUAAQJQb2ludEdhaW4AAQkE
+AAAAAAAAAABQb2ludEZyZXEAAQkEAAAAAABQf0AAQ3VzdG9tUG9pbnROb2RlAAECUG9pbnRHYWlu
+AAEJBAAAAAAAAAAAUG9pbnRGcmVxAAEJBAAAAAAAAJlAAEN1c3RvbVBvaW50Tm9kZQABAlBvaW50
+R2FpbgABCQQAAAAAAAAAAFBvaW50RnJlcQABCQQAAAAAAOyzQABDdXN0b21Qb2ludE5vZGUAAQJQ
+b2ludEdhaW4AAQkEAAAAAAAAAABQb2ludEZyZXEAAQkEAAAAAABAz0AAAAAAAAAAAABKVUNFUHJp
+dmF0ZURhdGEAAQFCeXBhc3MAAQECAB0AAAAAAAAASlVDRVByaXZhdGVEYXRhTGlzdAIAAABDb21w
+MAAAAAAAAAB0BAAAAAAAAENvbnSkBAAAAAAAAAAAAAAAAAAA]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>????</plugin_current_setup>
+      <plugin_name>ARC 3</plugin_name>
+      <plugin_id>VS0S</plugin_id>
+      <plugin_vendor>IK Multimedia</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+      <plugin_vst_class_id>NTY1
+MzU0NDE1MjQzMzM2MQ==</plugin_vst_class_id>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>710</PosX>
+      <PosY>273</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>300 -1 2</PluginAutomationList>
+    </slot>
+    <slot index="8">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[VlNU
+MwEAAAA1NjUzNTQ0MTUyNDMzMzYxNzI2MzIwMzMwMDAwMDAwMJ8EAAAAAAAAVnN0VwAAAAgAAAAB
+AAAAAUNjbksAAARXRkJDaAAAAAJBUkMzAAMAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA79BUkMzQ29y
+cmVjdGlvbk5vZGUAARZQaGFzZVR5cGUAAQgFTGluZWFyAE1ldGVyVHlwZQABBgVQRUFLAE1ldGVy
+UHJlT3JQb3N0AAEGBVBPU1QASGlnaFJhbmdlAAEJBAAAAABgA8VAQ29ycmVjdGlvbkVuYWJsZWQA
+AQECU21vb3RoaW5nVHlwZQABCQVEZWZhdWx0AENvbWJpbmVkTFIAAQMFMABWaXJ0dWFsTW9uaXRv
+cmluZwABBQVPZmYAVGFyZ2V0AAEKBUN1c3RvbSAxAE1heEFsbG93YWJsZVRyaW0AAQkEAAAAAJZJ
+G8BNZWFzdXJlbWVudAABCgVhdXJhdG9uZQBDdXJ2ZUVuYWJsZWRCZWZvcmVMAAEDBTEAQ3VydmVF
+bmFibGVkVGFyZ2V0AAEDBTEAQ29ycmVjdGlvblNwZWFrZXIAARIFTWFja2llIE1SMTBTIE1rMwBU
+cmltAAEJBAAAAACWSRvAQ3VydmVFbmFibGVkQWZ0ZXJMAAEDBTEAUlRBRW5hYmxlZAABAwUwAEN1
+cnZlRW5hYmxlZEJlZm9yZVIAAQMFMQBWaWV3ZWRNYWluUGFuZWxJZAABCwVQYW5lbFBsYXkATG93
+UmFuZ2UAAQkEAAAAoLi2WUBDdXJ2ZUVuYWJsZWRBZnRlclIAAQMFMQBTZWxlY3RlZEN1c3RvbVBv
+aW50AAEFAf////8BBkN1c3RvbVBvaW50Tm9kZQABAlBvaW50R2FpbgABCQQAAAAAAAAAAFBvaW50
+RnJlcQABCQQAAABArwdbQABDdXN0b21Qb2ludE5vZGUAAQJQb2ludEdhaW4AAQkEAAAAAAAAAABQ
+b2ludEZyZXEAAQkEAAAAgCULS0AAQ3VzdG9tUG9pbnROb2RlAAECUG9pbnRHYWluAAEJBAAAAAAA
+AAAAUG9pbnRGcmVxAAEJBAAAAKBKGIpAAEN1c3RvbVBvaW50Tm9kZQABAlBvaW50R2FpbgABCQQA
+AAAAAAAAAFBvaW50RnJlcQABCQQAAAAAAACZQABDdXN0b21Qb2ludE5vZGUAAQJQb2ludEdhaW4A
+AQkEAAAAAAAAAABQb2ludEZyZXEAAQkEAAAAgPNEtEAAQ3VzdG9tUG9pbnROb2RlAAECUG9pbnRH
+YWluAAEJBAAAAAAAAAAAUG9pbnRGcmVxAAEJBAAAAAAAQM9AAAAAAAAAAAAASlVDRVByaXZhdGVE
+YXRhAAEBQnlwYXNzAAEBAgAdAAAAAAAAAEpVQ0VQcml2YXRlRGF0YUxpc3QCAAAAQ29tcDAAAAAA
+AAAAbwQAAAAAAABDb250nwQAAAAAAAAAAAAAAAAAAA==]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>????</plugin_current_setup>
+      <plugin_name>ARC 3</plugin_name>
+      <plugin_id>VS0S</plugin_id>
+      <plugin_vendor>IK Multimedia</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+      <plugin_vst_class_id>NTY1
+MzU0NDE1MjQzMzM2MQ==</plugin_vst_class_id>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>710</PosX>
+      <PosY>273</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>302 -1 2</PluginAutomationList>
+    </slot>
+    <QuickKeysListNew>
+     <QuickKey Index="0">
+      <ControlId Index="6">
+       <minRange>1</minRange>
+       <maxRange>0</maxRange>
+       <minRangeOriginal>0</minRangeOriginal>
+       <maxRangeOriginal>1</maxRangeOriginal>
+       <minEffectiveRange>0</minEffectiveRange>
+       <maxEffectiveRange>1000</maxEffectiveRange>
+       <controlName>Rack 1 Solo</controlName>
+       <controlRanges>
+        <states>1 0</states>
+        <points>0 1000</points>
+       </controlRanges>
+      </ControlId>
+      <ControlId Index="21">
+       <minRange>0</minRange>
+       <maxRange>1</maxRange>
+       <minRangeOriginal>0</minRangeOriginal>
+       <maxRangeOriginal>1</maxRangeOriginal>
+       <minEffectiveRange>0</minEffectiveRange>
+       <maxEffectiveRange>1000</maxEffectiveRange>
+       <controlName>Rack 2 Solo</controlName>
+       <controlRanges>
+        <states>0 1</states>
+        <points>0 1000</points>
+       </controlRanges>
+      </ControlId>
+     </QuickKey>
+     <QuickKey Index="1">
+      <ControlId Index="-1">
+       <minRange>1</minRange>
+       <maxRange>0</maxRange>
+       <minRangeOriginal>0</minRangeOriginal>
+       <maxRangeOriginal>1</maxRangeOriginal>
+       <minEffectiveRange>0</minEffectiveRange>
+       <maxEffectiveRange>1000</maxEffectiveRange>
+       <controlName>#S1:On/Off</controlName>
+       <controlRanges>
+        <states>1 0</states>
+        <points>0 1000</points>
+       </controlRanges>
+      </ControlId>
+     </QuickKey>
+    </QuickKeysListNew>
+   </PluginSpecificXMLData>
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>Parallel Split</plugin_name>
+                        <plugin_id>PRRS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>true</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>true</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>true</IsShowing>
+                        <PosX>0</PosX>
+                        <PosY>0</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>304 -1 1 305 3 1 306 5 2 308 9 3 311 13 6 317 20 2 319 24 3 322 28 6 328 35 2 330 39 3 333 43 6 339 50 2 341 54 3 344 58 6 350 65 2 352 69 3 355 73 6 361 80 2 363 84 3 366 88 6 372 95 2 374 99 3 377 103 6 383 110 2 385 114 3 388 118 5 393 300 2 395 302 2</PluginAutomationList>
+                </slot>
+            </PluginSpecificXMLData>
+        </PresetData>
+    </Preset>
+</PresetXMLTree>
